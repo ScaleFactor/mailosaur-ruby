@@ -1,5 +1,4 @@
-require 'rake'
-require './lib/Mailosaur/version'
+require_relative 'lib/Mailosaur/version'
 
 Gem::Specification.new do |s|
   s.name        = 'mailosaur'
